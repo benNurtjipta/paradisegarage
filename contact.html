@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <script
+      src="https://kit.fontawesome.com/2b9e94fe34.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <img src="./images/pglogo.png" alt="logo" />
+      <h1>Paradise Garage</h1>
+      <div class="menunav">
+        <i class="fa-solid fa-bars fa-xl"></i>
+        <ul>
+          <li><a href="">News</a></li>
+          <li><a href="#funk">Funk</a></li>
+          <li><a href="">70s Disco</a></li>
+          <li><a href="">80s Disco</a></li>
+          <li><a href="">Boogie</a></li>
+          <li><a href="">Soul</a></li>
+          <li><a href="./contact.html">CONTACT</a></li>
+          <li><a href="">LOGIN</a></li>
+        </ul>
+      </div>
+      <div class="login">
+        <p>LOGIN</p>
+        <a href=""><i class="fa-solid fa-right-to-bracket"></i></a>
+      </div>
+    </header>
+
+    <main class="contact-page">
+      <aside class="leftaside">
+        <ul>
+          <li><a href="">News</a></li>
+          <li><a href="#funk">Funk</a></li>
+          <li><a href="">70s Disco</a></li>
+          <li><a href="">80s Disco</a></li>
+          <li><a href="">Boogie</a></li>
+          <li><a href="">Soul</a></li>
+        </ul>
+        <div class="special1"><img src="./images/sale.jpg" alt="sale" /></div>
+      </aside>
+      <form action="" method="post">
+        <fieldset>
+          <legend>Contact us...</legend>
+          <div>
+            <label for="name">Full Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Your Name..."
+            />
+          </div>
+          <div>
+            <label for="email">E-Mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="Your E-Mail..."
+            />
+          </div>
+          <div>
+            <label for="textbox">What's on your mind?</label>
+            <textarea
+              name=""
+              id="textbox"
+              rows="6"
+              placeholder="Let us know..."
+            ></textarea>
+          </div>
+          <section class="radio-section">
+            <div class="radio-list">
+              <h3>What's your style?</h3>
+              <div class="radio-item">
+                <input name="radio" id="radio1" type="radio" /><label
+                  for="radio1"
+                  >Disco</label
+                >
+              </div>
+              <div class="radio-item">
+                <input name="radio" id="radio2" type="radio" /><label
+                  for="radio2"
+                  >Funk</label
+                >
+              </div>
+              <div class="radio-item">
+                <input name="radio" id="radio3" type="radio" /><label
+                  for="radio3"
+                  >Soul</label
+                >
+              </div>
+              <div class="radio-item">
+                <input name="radio" id="radio4" type="radio" /><label
+                  for="radio4"
+                  >Boogie</label
+                >
+              </div>
+            </div>
+          </section>
+          <label for="shadow-checkbox">D-I-S-C-O?</label>
+          <input type="checkbox" id="shadow-checkbox" name="newsletter" />
+          <button class="hitme-button">HIT ME!</button>
+        </fieldset>
+      </form>
+      <aside class="rightside">
+        <div class="sidebasket">
+          <i class="fa-solid fa-basket-shopping fa-xl"></i>
+            <p class="itemcount">3x LP</p>
+            <p class="itemcount">4x 12"</p>
+            <p class="itemcount">3x 7"</p>
+            <p>TOTAL</p>
+            <p class="itemcount">$116.68</p>
+          <button class="paynow">
+             PAY NOW
+          </button>
+        </div>
+        <div class="sideplayer"><img class="animated-image paused" src="./images/r421202.jpg" alt="record" />
+          <audio id="myAudio" src="./music/item.mp3"></audio>
+          <div class="player-icons">
+            
+            
+            <button class="controls" onclick="playAudio()"><i class="fa-solid fa-play"></i></button>
+            <button class="controls" onclick="pauseAudio()"><i class="fa-solid fa-stop"></i></div></button>
+
+          <div class="player-icons">
+            <i class="fa-solid fa-backward"></i>
+            <i class="fa-solid fa-forward"></i></div>
+            <div class="progressbar">
+              <div></div>
+            </div>
+            
+          </div>
+          
+      </aside>
+      <!-- <audio controls>
+        <source src="./music/item.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio> -->
+    </main>
+    <footer>
+      <div class="footer-links">
+        <ul>
+          <li><a href="">Impressum</a></li>
+          <li><a href="">Versand</a></li>
+          <li><a href="">AGB</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="player">
+        <img class="animated-image paused" src="./images/r421202.jpg" alt="" />
+        <audio id="myAudio" src="./music/item.mp3"></audio>
+          <div class="player-icons">
+            
+            
+            <button class="controls" onclick="playAudio()"><i class="fa-solid fa-play"></i></button>
+            <button class="controls" onclick="pauseAudio()"><i class="fa-solid fa-stop"></i></div></button>
+      </div>
+
+      <div class="search">
+        <input type="text" class="searchTerm" />
+        <button type="submit" class="searchButton">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+
+      <div class="basket">
+        <i class="fa-solid fa-basket-shopping"></i>
+        <div class="payment">
+          <p>10x $116.68</p>
+          <button class="paynow">PAY NOW</button>
+        </div>
+      </div>
+      <div class="payments">
+        <span>Payment Methods:</span>
+        <i class="fa-brands fa-paypal"></i>
+        <i class="fa-solid fa-credit-card"></i>
+        <i class="fa-solid fa-money-bill"></i>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
