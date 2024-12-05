@@ -100,6 +100,7 @@ h1 {
   color: #f2e3d5;
   cursor: pointer;
   font-size: 1.5rem;
+  transition: text-shadow 0.3s ease;
 }
 
 h1:hover {
@@ -385,7 +386,7 @@ aside {
   width: 70%;
   height: 175px;
   background-color: var(--secondary);
-  border-radius: 5px;
+  border-radius: 8px;
   margin: 1rem auto;
   overflow: hidden;
   padding: 1rem;
@@ -410,7 +411,7 @@ aside {
 }
 
 .sideplayer {
-  width: 90%;
+  width: 80%;
   height: 175px;
   margin: 1rem auto;
   overflow: hidden;
@@ -496,12 +497,12 @@ fieldset {
 legend {
   color: var(--highlightc);
   margin-left: 2rem;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Tajawal", sans-serif;
 }
 
 fieldset label {
   color: var(--highlightc);
-  font-family: "Roboto Mono", monospace;
+  font-family: "Tajawal", sans-serif;
 }
 fieldset div {
   display: flex;
@@ -539,8 +540,8 @@ textarea {
 
 #shadow-checkbox {
   position: absolute;
-  top: 605px;
-  left: 1.5rem;
+  top: 587px;
+  left: -0.4rem;
 }
 
 /* radioboxes */
@@ -551,7 +552,7 @@ textarea {
   justify-content: center;
 }
 h3 {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Tajawal", sans-serif;
   color: var(--highlightc);
   font-size: 1rem;
   font-weight: 400;
@@ -651,8 +652,8 @@ h3 {
   }
 
   #shadow-checkbox {
-    top: 605px;
-    left: 6.7rem;
+    top: 587px;
+    left: 5.7rem;
   }
   input,
   textarea {
